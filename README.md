@@ -5,7 +5,7 @@ You can open a file and edit the text, that's it.
 
 Lines, bytes and characters are visible in the statusbar.
 
-<img src="img/screenshot.png">
+<img src="img/screenshot.png" alt="">
 
 
 
