@@ -7,13 +7,13 @@ cmake_minimum_required(VERSION 3.22)
 set(CMAKE_CXX_STANDARD 17)
 
 # Rename this to your project name if you want.
-project(wxWidget-Template)
+project(TinyNotebook)
 
 ##---------------------------------------------
 ## wxWidgets configuration here
 ##---------------------------------------------
 # 1. Configure to the path where your downloaded wxWidgets are located. Notice no / at the end.
-set(wxWidgets_ROOT_DIR /Path/To/wxWidgets/wxWidgets-version-x-y-z)
+set(wxWidgets_ROOT_DIR /Users/andreasohlstrom/Development/_misc/wxWidgets/wxWidgets-3.2.2.1)
 
 # 2. This does not need to be changed since it's default built behaviour.
 set(wxWidgets_CONFIG_EXECUTABLE ${wxWidgets_ROOT_DIR}/build-cocoa-debug/wx-config)

@@ -1,22 +1,17 @@
-/*cApp.cpp - This is where the implementation overall of our application is -> holding it all together. */
-
 #include "../HeaderFiles/cApp.h"
 
+/*cApp.cpp - This is where the implementation overall of our application is -> holding it all together. */
 
 cApp::cApp() = default;
-
 cApp::~cApp() = default;
 
-
-// The default entry point for wxWidgets "main" function. It's a macro that masks the default main cpp entry point.
+/*The default entry point for a wxWidget App.*/
 wxIMPLEMENT_APP(cApp);
 
-// Main function to show the window.
+/*Method that we must initialize and override to get this app started.*/
 bool cApp::OnInit()
 {
     m_frame1 = new cMain();
     m_frame1->Show(true);
-
-
     return true;
 }
